@@ -1,0 +1,482 @@
+
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1%;
+   
+    
+}
+
+body ul li {
+    list-style-type: none;
+}
+body img {
+    width: 100%;
+    height: auto;
+}  
+
+/* rgb(0,89,89)*/
+
+
+#headerSito h1{
+    font-size: 3.5em;
+    padding: 4%;
+    margin: 0%;
+    color:rgb(0,89,89);
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0,89,89);
+    border-left-color: rgb(0,89,89);
+    border-bottom-right-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    font-variant: small-caps;
+    
+}
+
+#headerSito h3{
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    font-variant: small-caps;    
+    color:rgb(0,89,89);
+}
+
+
+
+#headerSito p {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    width: 100%;
+    height: auto;    
+    font-variant: small-caps;
+}
+#legenda{
+    text-align: center;
+    
+    background-color: rgb(0,89,89);
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color:darkslategrey;
+    border-right-width: thick;
+    border-right-style: solid;
+    border-right-color:darkslategrey;
+    border-radius: 10px;
+   
+}
+
+#legenda p {
+    background-color: white;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color:darkslategrey;
+    border-right-width: thick;
+    border-right-style: solid;
+    border-right-color:darkslategrey;
+    border-top-right-radius: 10px;
+}
+
+
+#legenda ul li{
+    padding: 1%;
+    font-size: 1.2em;
+    color: white;
+}
+
+ul.navigatore{
+    text-align: center;
+}
+
+ul.navigatore li{
+    display: inline-block;
+    margin: 2%;
+    padding: 2%;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color:darkslategrey;
+}
+
+ul.navigatore li:hover{
+    background-color:rgb(43, 201, 198);
+}
+
+
+ul.navigatore li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul.navigatore li a:hover{
+    color: white;
+}
+
+ul.navigatore li a:active{
+   color:orange;
+}
+
+
+
+div.cartGenerale{
+    padding: 0%;
+    background-color: rgb(244, 244, 244);
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 4%;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-color: rgb(85, 85, 85);
+    border-right-width:thick;
+    border-bottom-width:thick;
+    border-radius: 10px;
+}
+
+div.cartGenerale p {
+    max-width: 40%;
+}
+
+div.cartGenerale h2{
+    padding-top:2%;
+    padding-bottom: 2%;
+    font-variant: small-caps;
+    font-size: 2em;
+    color: rgb(0,89,89);
+}
+
+div.cartGenerale h3{
+    font-size: 1em;
+    padding-left: 4%;
+    
+}
+div.cartGenerale h3:nth-of-type(2){
+    font-size: 0.9em;
+    padding-bottom: 2%;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: darkslategrey;
+    
+}
+
+/*div.cartGenerale :not(h2,h3){
+    max-width: 50%;
+}*/
+div.cartGenerale h2, div.cartGenerale h3{
+    max-width: 40%;
+   /* background-color: rgb(0, 99, 36);*/
+    padding-top: 0%;
+    padding-left:2%;
+    margin: 0;
+    /*color:white;*/
+}
+
+
+div.fronte {
+    margin:3%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+
+
+div.retro{
+    margin:3%;
+    padding-top:2%;
+    padding: 5%;
+    
+}
+
+div.fronte p:nth-last-child(2){
+    font-weight: bold;
+    padding-top: 2%;
+    
+}
+
+div.fronte p:nth-last-child(1){
+    padding-bottom: 2%;
+    padding:2%;
+    border-bottom-width: thick;
+    border-bottom-style: solid;
+    border-bottom-color:darkslategrey;
+    border-right-width: thick;
+    border-right-style: solid;
+    border-right-color:darkslategrey;
+    border-radius: 10px;
+ 
+}
+
+div.fronte img{
+    margin:3%;
+    float: right;
+    width: 500px;
+    outline-color: rgb(0,89,89);
+    outline-width: 0.7em;
+    outline-style: double;
+    margin-top: 6%;
+    padding: 2%;
+    background-color: white;
+}
+
+div.retro img:nth-child(1){
+    float:right;
+    margin:3%;
+    height: 600px;
+    width:auto;
+    outline-color: rgb(0,89,89);
+    outline-width: 0.7em;
+    outline-style: double;
+    padding: 2%;
+    background-color: rgba(255, 223, 164, 0.511);
+    
+}
+
+#indirizzi81, #indirizzi94{
+    padding-bottom: 4%;
+}
+
+#timbriFrancobolli81 img, #timbriFrancobolli94 img{
+    max-width: 25%;
+    height: auto;
+    display: inline;
+}
+
+div.fronte h4{
+    padding-top: 2%;
+    border-top-width: medium;
+    border-top-style: solid;
+    border-top-color: darkslategrey;
+    max-width: 40%;
+}
+#r81, #r94{
+    display: block;
+}
+
+.mappatura, .mappatura1{
+    display: none;
+}
+
+
+
+#indirizzi81 p, #indirizzi94 p{
+    font-weight:bold;
+}
+
+
+#indirizzi81 p:nth-of-type(2), #indirizzi94 p:nth-of-type(2) {
+    padding-top: 2%;
+    border-top-width: medium;
+    border-top-style: solid;
+    border-top-color: darkslategrey;
+    
+}
+
+
+div#t81, div#t94 {
+    padding-top: 2%;
+    max-width: 40%;
+}
+
+#t81 p, #t94 p{
+    font-weight:bold;
+    padding-bottom: 2%;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color: darkslategrey;
+}
+
+#t81 span{
+    margin-right: 1em;
+    padding-left: 0.2em;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: darkslategrey;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: darkslategrey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#t81 span:hover{
+    background-color: rgb(43, 201, 198);
+    color: white;
+}
+
+#t94 span{
+    margin-right: 1em;
+    padding-left: 0.2em;
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: darkslategrey;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    border-bottom-color: darkslategrey;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#t94 span:hover{
+    background-color: rgb(43, 201, 198);
+    color: white;
+}
+
+#timbriFrancobolli81 , #timbriFrancobolli94 {
+    font-weight: bold;
+    max-width: 50%;
+    padding-top: 2%;
+}
+
+#timbriFrancobolli81 ol, #timbriFrancobolli94 ol{
+    font-weight: bold;
+    max-width: 50%;
+    padding-top: 5%;
+}
+
+#timbriFrancobolli81 ol:nth-child(2), #timbriFrancobolli94 ol:nth-child(2), #cartTrad, #diciture{
+    
+    
+    border-top-width: medium;
+    border-top-style: solid;
+    border-top-color: darkslategrey;
+    
+}
+
+
+
+#cartTrad p, #diciture p{
+    background-color: rgb(0,89,89);
+    padding: 3%;
+    color:white;
+    margin-top: 2%;
+    
+}
+
+#timbriFrancobolli81 ol li, #timbriFrancobolli94 ol li{
+    font-weight:lighter;
+    
+}
+
+
+#timbriFrancobolli81 img, #timbriFrancobolli94 img{
+    display: inline-block;
+    margin:3%;
+    max-width: 100px;
+    outline-color: rgb(0,89,89);
+    outline-width: 0.7em;
+    outline-style: double;
+
+}
+
+#timbriFrancobolli81 img:nth-of-type(2), #timbriFrancobolli94 img:nth-of-type(2){
+    margin-left:5%;
+    text-align: center;
+}
+
+#credits p:nth-child(1){
+    font-size: 2em;
+}
+
+footer div{
+    background-color: rgb(0,89,89);
+    padding: 3%;
+    color:white;
+    max-width: auto;
+    font-weight: bold;
+}
+
+footer div ul li{
+    padding-left: 1.5em;
+    font-weight: normal;
+    border-left-width: medium;
+    border-left-style: solid;
+    border-left-color: rgb(255, 255, 255);
+    
+}
+footer ul li:last-of-type{
+    padding-bottom: 1em;
+    border-bottom-width:medium;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(255, 255, 255);
+    
+}
+
+
+.crediti1{
+    float: right;
+    width: 50%;
+}
+
+.crediti2{
+    width: 50%;
+}
+
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration-line: underline;
+}
+
+.popup:hover {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color:darkorange;
+    transition: 0.3s;
+  }
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

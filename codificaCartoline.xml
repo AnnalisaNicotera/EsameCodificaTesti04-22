@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title>Cartoline ad Oliva Tortura</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="MLA">Martina Lazzari</name>
+                    <name xml:id="MLO">Martina Lombardo</name>
+                    <name xml:id="AN">Annalisa Nicotera</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            <!-- EDIZIONE DIGITALE -->
+            <editionStmt>
+                <edition> Studentesse di Codifica di Testi, corso di Laurea Triennale in Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2022</date>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name ref="#MLA">Martina Lazzari</name>
+                    <name ref="#MLO">Martina Lombardo</name>
+                    <name ref="#AN">Annalisa Nicotera</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <!-- PUBBLICAZIONE -->
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note>  </note>
+            </notesStmt>
+            <sourceDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>Giovanni</forename>
+                            <surname>Coliola</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <occupation n="1">[maggiore]</occupation>
+                    </person>
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                <!--luoghi-->
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <district type="regione">Emilia-Romagna</district>
+                        <country key="N">Italia</country>
+                    </place>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <district type="regione">Emilia-Romagna</district>
+                        <country key="N">Italia</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <!--cartolina 081-->
+    <TEI xml:id="cartolina81">
+        <teiHeader>
+            <fileDesc>
+                 <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>Cartoline ad Oliva Tortura</title>
+                    <!-- TRASCRITTORE nome e cognome-->
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#MLA">Martina Lazzari</name>
+                        <name ref="#MLO">Martina Lombardo</name>
+                        <name ref="#AN">Annalisa Nicotera</name>
+                    </respStmt>
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+                <!-- PUBBLICAZIONE -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title type="custom">Napoli - Presso la Vicaria</title>
+                        <author>Vincenzo Migliaro</author>
+                        <!-- LUOGO -->
+                        <pubPlace>Napoli</pubPlace>
+                        <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                        <date>1918</date>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia </country>
+                            <settlement>La Spezia (SP) </settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale </repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_081_001/002</idno>
+                        </msIdentifier>
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                    </support>
+                                    <!-- CONSERVAZIONE -->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>
+            <!--aspetti non bibliografici del testo-->
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#MO"/>
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="postage" when="1918-01-07">1918/01/07</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT" />
+                        <placeName xml:id="Ravenna"/>
+                    </correspAction>
+                </correspDesc>
+                <textClass>
+                    <keywords>
+                        <term>Cartolina</term>
+                        <term>Cartolina Artistica</term>
+                        <term>Veduta presso una piazzetta di Napoli</term>
+                    </keywords>
+                </textClass>
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <!--cartolina 081-->
+        <facsimile>
+            <surface xml:id="fronte081">
+                <graphic url='cartoline/7694-081F.jpeg' width='1671px' height='1066px' />
+            </surface>
+            <surface xml:id="retro081">
+                <graphic url='cartoline/7694-081R.jpeg' width='1671px' height='1066px' />
+                <!-- SINISTRA -->
+                <!-- area sinistra della cartolina -->
+                <zone ulx="1" uly="844" lrx="1065" lry="1669" xml:id="sezioneSinistra81"/>
+                <!-- area contenente il testo della cartolina -->
+                <zone ulx="1" uly="814" lrx="1059" lry="1646" xml:id="testo81"/>
+                <!-- danno angolo in alto a sinistra -->
+                <zone ulx="1" uly="1627" lrx="49" lry="1671" xml:id="dannoSxA"/>
+                <!--linee del testo-->
+                <zone ulx="87" uly="813" lrx="853" lry="941" xml:id="riga1_81"/>
+                <zone ulx="47" uly="940" lrx="1038" lry="1075" xml:id="riga2_81"/>
+                <zone ulx="19" uly="1047" lrx="1045" lry="1178" xml:id="riga3_81"/>
+                <zone ulx="35" uly="1156" lrx="1058" lry="1298" xml:id="riga4_81"/>
+                <zone ulx="43" uly="1256" lrx="946" lry="1416" xml:id="riga5_81"/>
+                <zone ulx="99" uly="1365" lrx="749" lry="1482" xml:id="riga6_81"/>
+                <zone ulx="2" uly="1466" lrx="843" lry="1635" xml:id="riga7_81"/>
+                <!--danno centrale-->
+                <zone ulx="542" uly="1187" lrx="619" lry="1249" xml:id="dannoC"/>
+                <!-- area contenente autore e titolo cartolina in varie lingue -->
+                <zone ulx="828" uly="936" lrx="932" lry="1569" xml:id="infoCart81" rotate="90"/>
+                <!-- autore cartolina -->
+                <zone ulx="827" uly="1329" lrx="854" lry="1567" xml:id="autoreCart81" rotate="90"/>
+                <!-- area contenente il titolo tradotto in tre lingue -->
+                <zone ulx="827" uly="939" lrx="929" lry="1307" xml:id="titoliCart" rotate="90"/>
+                <zone ulx="829" uly="953" lrx="857" lry="1302" xml:id="titoloCartIta" rotate="90"/>
+                <zone ulx="864" uly="939" lrx="893" lry="1306" xml:id="titoloCartFra" rotate="90"/>
+                <zone ulx="901" uly="956" lrx="930" lry="1305" xml:id="titoloCartEng" rotate="90"/>
+                <!-- DESTRA -->
+                <!--area destra degli indirizzi/timbri/francobolli-->
+                <zone ulx="1" uly="0" lrx="1065" lry="841" xml:id="sezioneDestra81"/>
+                <!--area contenente timbri e francobolli-->
+                <zone ulx="1" uly="47" lrx="325" lry="397"  xml:id="timbroDxA81"/>
+                <zone ulx="53" uly="191" lrx="402" lry="533"  xml:id="timbroSxB81"/>
+                <zone ulx="27" uly="44" lrx="331" lry="293"  xml:id="francobolloDx81"/>
+                <zone ulx="1" uly="1" lrx="42" lry="51" xml:id="dannoDxA"/>
+                <!--codice identificativo cartolina, catalogazione-->
+                <zone ulx="27" uly="628" lrx="85" lry="711" xml:id="n81"/>
+                <!-- nota tipografica 266-6 -->
+                <zone ulx="944" uly="809" lrx="970" lry="882" xml:id="codiceFattura" rotate="90"/>
+                <!--area contenente tutte le informazioni relative al destinatario-->
+                <zone ulx="349" uly="26" lrx="1013" lry="826"  xml:id="infoD81"/>
+                <!--linee indirizzo e destinatario-->
+                <zone ulx="351" uly="241" lrx="523" lry="825" xml:id="lineaDest1_81" rotate="90"/>
+                <zone ulx="527" uly="95" lrx="645" lry="828" xml:id="lineaDest2_81" rotate="90"/>
+                <zone ulx="663" uly="35" lrx="793" lry="826" xml:id="lineaInd1_81" rotate="90"/>
+                <zone ulx="799" uly="66" lrx="1013" lry="792" xml:id="lineaInd2_81" rotate="90"/>
+                <!--nominativo destinatario-->
+                <zone ulx="353" uly="99" lrx="643" lry="829" xml:id="destinatario81" rotate="90"/>
+                <!--indirizzo destinatario-->
+                <zone ulx="662" uly="33" lrx="1016" lry="826" xml:id="indirizzoD81" rotate="90"/>
+            </surface>
+        </facsimile>
+        <!-- DEFINIZIONE -->
+        <text type="cartolina" xml:id="cart081">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div facs="#fronte081" type="fronte">
+                    <figure>
+                        <graphic url="cartoline/7694-081F.jpeg" />
+                        <figDesc>Veduta di una piazzetta di Napoli</figDesc>
+                        <head>Napoli - Presso la Vicaria</head>
+                    </figure>
+                </div>
+                <div facs="#retro081" type="retro">
+                    <div facs="#sezioneSinistra81" type="message">
+                        <p facs="#infoCart81">
+                            <lb n="" facs="#autoreCart81"/><persName xml:id="VM">Vincenzo Migliaro.</persName>
+                            <span facs="#titoliCart">
+                                <lb n="" facs="#titoloCartIta"/><title xml:lang="it">Napoli - Presso la Vicaria.</title>
+                                <lb n="" facs="#titoloCartFra"/><title xml:lang="fr">Naples - Près de la Vicaria.</title>
+                                <lb n="" facs="#titoloCart"/><title xml:lang="en">Naples - Near the Vicaria.</title>
+                            </span>
+                        </p>
+                        <div facs="#testo81" type="textmessage">
+                            <opener>
+                                <lb n="1" facs="#riga1_81"/>
+                                <placeName ref="#MO">Modena</placeName>, lì
+                                <date when="1918/1/7">7/1 - 1918.</date>
+                            </opener>
+                            <p>
+                                <s>
+                                    <lb n="2" facs="#riga2_81"/>Ti penso tanto tanto con infi-  
+                                    <lb n="3" facs="#riga3_81"/>nita tenerezza, con pa<c corresp="ss">&#x17F;</c>ione, qua- 
+                                    <lb n="4" facs="#riga4_81"/>si con gioia sin<damage agent="rubbing" degree="high"><supplied reason="illegible">go</supplied></damage>lare, profonda.
+                                </s>
+                            </p>
+                            <closer>
+                                <lb n="5" facs="#riga5_81"/>Un bacio soavi<c corresp="ss">&#x17F;</c>imo 
+                                <lb n="6" facs= "#riga6_81"/>sempre tuo 
+                                <signed>
+                                    <lb n="7" facs="#riga7_81" />
+                                    <persName ref="#GC"><addName type="alias">Giovannino</addName></persName>  
+                                </signed>
+                            </closer>
+                        </div>
+                    </div>
+                    <div facs="#sezioneDestra81" type="destination">
+                        <p xml:id="timbri81">
+                            <!-- stamps -->
+                            <stamp facs="#timbroSxB81"  xml:id="timbroSxCartB81" type="postmark"> 
+                                <placeName ref="#MO">
+                                    Moden<supplied reason="overwriting">a</supplied>
+                                </placeName>
+                                <w>Ferr<supplied reason="overwriting">ovia</supplied></w>
+                                <gap reason="illegible"/>
+                            </stamp>
+                            <stamp facs="#timbroDxA81" xml:id="timbroDxCartA81" type="postmark"> 
+                                <placeName ref="#MO">
+                                    <unclear reason="illegible">Modena</unclear>
+                                </placeName>
+                                <w>rr<supplied reason="overwriting">Fe</supplied><supplied reason="faded-ink">ovia</supplied></w>
+                                <gap reason="illegible"/>
+                            </stamp>
+                        </p>
+                        <p xml:id="francobolli81">
+                            <stamp facs="#francobolloDx81" xml:id="francobolloDxCart81" type="postage">
+                                <unclear reason="background_noise"><orgName type="compagnia postale">POSTE ITALIANE </orgName></unclear> 10 centesimi 10
+                            </stamp>
+                        </p>
+                        <div>
+                            <p facs="#infoD81">
+                                <span>
+                                    <idno type="numeroCart" facs="#n81" xml:id="ind81">81</idno>
+                                </span>
+                                <address>
+                                    <milestone facs="#destinatario81" unit="section"/>
+                                    <lb n="8" facs="#lineaDest1_81" />
+                                    <addrLine>
+                                        <choice>
+                                            <abbr xml:id="gent1">Gent</abbr>
+                                            <expan xml:id="gent2">Gent<ex>ile</ex></expan>
+                                        </choice>
+                                        <choice>
+                                            <abbr xml:id="sig1">Sig.na</abbr>
+                                            <expan xml:id="sig2">Sig<ex>norina</ex></expan>
+                                        </choice>
+                                    </addrLine>
+                                    <lb n="9" facs="#lineaDest2_81" />
+                                    <addrLine>
+                                        <persName ref="#OT">Olivia Turtura </persName>
+                                    </addrLine>
+                                    <milestone facs="#indirizzoD81"  unit="section"/>
+                                    <lb n="10" facs="#lineaInd1_81" />
+                                    <addrLine>Via Girolamo Ro<c corresp="ss">&#x17F;</c>i 53</addrLine>
+                                    <lb n="11" facs="#lineaInd2_81" />
+                                    <addrLine><placeName ref="#RV">Ravenna</placeName></addrLine>
+                                </address>
+                            </p>
+                            <p facs="#codiceFattura">
+                                <num>266</num>-<num>6</num>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    <TEI xml:id="cartolina94">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                    <title>Cartoline ad Oliva Tortura</title>
+                    <!-- TRASCRITTORE nome e cognome-->
+                    <respStmt>
+                        <resp>Trascritto da:</resp>
+                        <name ref="#MLA">Martina Lazzari</name>
+                        <name ref="#MLO">Martina Lombardo</name>
+                        <name ref="#AN">Annalisa Nicotera</name>
+                    </respStmt>
+                    
+                    <!-- ENTE DI APPARTENENZA -->
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                </titleStmt>
+                <!-- PUBBLICAZIONE -->
+                <publicationStmt>
+                    <publisher>Università di Pisa</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2019">2019</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                <sourceDesc>
+                    <bibl>
+                        <title type="custom" resp="#ES">L'architettura</title>
+                        <author>ignoto</author>
+                        <!-- LUOGO -->
+                        <pubPlace>luogo ignoto</pubPlace>
+                        <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                        <date>1917</date>
+                    </bibl>
+                    <msDesc>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <!-- COLLOCAZIONE SPECIFICA -->
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <!-- CODICE IDENTIFICATIVO -->
+                            <idno>7694_094_001/002</idno>
+                        </msIdentifier>
+                        <!-- Informazioni sul contenuto della cartolina -->
+                        <!-- DESCRIZIONE -->
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <!-- MATERIALI -->
+                                        <material>Carta</material>
+                                        <!-- DIMENSIONE -->
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                        <stamp>francobollo - Regno d'Italia</stamp>
+                                        <stamp>timbro - Modena Ferrovia</stamp>
+                                        <stamp>timbro - Modena Ferrovia</stamp>
+                                        <stamp>timbro - Ravenna</stamp>
+                                        <!--Timbro Ravenna troppo deteriorato per capire l'ente -->
+                                    </support>
+                                    <!-- CONSERVAZIONE 
+                                    buono = non occorrono interventi di restauro -->
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                </sourceDesc>
+            </fileDesc>    
+            <!--aspetti non bibliografici del testo-->
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#MO"/>
+                        <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                        <date type="postage" when="1917-06-07">1917/06/07</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT" />
+                        <placeName ref="#Ravenna"/>
+                    </correspAction>
+                </correspDesc>
+                <textClass>
+                    <keywords>
+                        <term>Cartolina</term>
+                        <term>Cartolina Artistica</term>
+                        <term>Due bambini giocano con dei mattoni creando delle costruzioni</term>
+                    </keywords>
+                </textClass>
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        <!--cartolina 094-->
+        <facsimile>
+            <surface xml:id="fronte094">
+                <graphic url='cartoline/7694-094F.jpeg' width='1661px' height='1060px'/>
+            </surface>
+            <surface xml:id="retro094">
+            <graphic url='cartoline/7694-094R.jpeg' width='1661px' height='1060px' />
+            <!-- DESTRA -->
+            <!-- coordinate area destra contenente indirizzo destinatario/francobolli/timbri -->
+            <!-- area poligonale (un timbro si trova al di sopra del testo di Giovannino) -->
+            <zone points = ' 512,4 512,394 782,404 785,1060 1655,1059 1659,4 ' xml:id="sezioneDestra94"/>	
+            <!-- area dedicata ai timbri postali -->
+            <zone ulx="56" uly="821" lrx="405" lry="1153" xml:id="timbroMoSx94"/>
+            <zone ulx="0" uly="425" lrx="349" lry="771" xml:id="timbroMoC94"/>
+            <zone ulx="58" uly="103" lrx="407" lry="433" xml:id="timbroMoDx94"/>
+            <zone ulx="218" uly="466" lrx="543" lry="785" xml:id="timbroRvC94"/>
+            <!--timbro con numero 2-->
+            <zone ulx="369" uly="190" lrx="535" lry="347" xml:id="timbroNDx94"/>
+            <!--interpretazione di un due rovesciato-->
+            <zone ulx="455" uly="453" lrx="602" lry="615" xml:id="timbroNC94"/>
+            <!-- nota 94, catalogazione -->
+            <zone ulx="819" uly="729" lrx="904" lry="829" xml:id="n94"/>
+            <!-- cmm -->
+            <zone ulx="958" uly="832" lrx="997" lry="907" xml:id="logo"/>
+            <zone ulx="63" uly="351" lrx="316" lry="632" xml:id="francobolloSx94"/>
+            <!-- francobollo rovinato -->
+            <zone ulx="62" uly="63" lrx="309" lry="324" xml:id="francobolloDx94"/>
+            <!-- informazioni destinatario, indirizzo e nominativo -->
+            <zone ulx="397" uly="1" lrx="950" lry="875" xml:id="infoD94" rotate="90"/>
+            <zone ulx="395" uly="89" lrx="627" lry="873" xml:id="destinatario94" rotate="90"/>
+            <zone ulx="657" uly="4" lrx="959" lry="829" xml:id="indirizzoD94" rotate="90"/>
+            <!-- righe destinatario indirizzo, prese singolarmente -->
+            <zone ulx="394" uly="294" lrx="588" lry="873" xml:id="lineaDest1_94" rotate="90"/>
+            <zone ulx="539" uly="89" lrx="630" lry="835" xml:id="lineaDest2_94" rotate="90"/>
+            <zone ulx="660" uly="85" lrx="814" lry="827" xml:id="lineaInd1_94" rotate="90"/>
+            <zone ulx="798" uly="0" lrx="969" lry="644" xml:id="lineaInd2_94" rotate="90"/>
+            <!-- SINISTRA -->
+            <!-- area sinistra cartolina -->
+            <zone ulx="1" uly="881" lrx="1058" lry="1659" xml:id="sezioneSinistra94"/>
+            <!-- area contenente il testo scritto -->
+            <zone ulx="291" uly="1575" lrx="819" lry="1606" xml:id="testo94"/>
+            <!-- linee del testo -->
+            <zone ulx="112" uly="871" lrx="788" lry="964" xml:id="riga1_94"/>
+            <zone ulx="73" uly="937" lrx="991" lry="1024" xml:id="riga2_94"/>
+            <zone ulx="49" uly="1003" lrx="957" lry="1128" xml:id="riga3_94"/>
+            <zone ulx="29" uly="1094" lrx="1039" lry="1208" xml:id="riga4_94"/>
+            <zone ulx="24" uly="1178" lrx="1015" lry="1280" xml:id="riga5_94"/>
+            <zone ulx="37" uly="1253" lrx="939" lry="1380" xml:id="riga6_94"/>
+            <zone ulx="35" uly="1337" lrx="1018" lry="1402" xml:id="riga7_94"/>
+            <zone ulx="11" uly="1415" lrx="866" lry="1514" xml:id="riga8_94"/>
+            <zone ulx="37" uly="1473" lrx="1059" lry="1571" xml:id="riga9_94"/>
+            <zone ulx="39" uly="1561" lrx="1009" lry="1655" xml:id="riga10_94"/>
+            <!-- informazioni stampate su cartolina -->
+            <!-- titolo cartolina sottostante al testo scritto -->	
+            <zone ulx="923" uly="1289" lrx="943" lry="1492" xml:id="titoloCart94" rotate="90"/>
+            <zone ulx="291" uly="1575" lrx="819" lry="1606" xml:id="pRiservata"/>
+            </surface>
+        </facsimile>
+        <!-- DEFINIZIONE -->
+        <text type="cartolina" xml:id="cart094">
+            <!-- TRASCRIZIONE -->
+            <body>
+                <div facs="#fronte094" type="fronte">
+                    <figure>
+                        <graphic url="cartoline/7694-094F.jpeg" />
+                        <figDesc>Due bambini giocano con dei mattoni creando delle costruzioni</figDesc>
+                    </figure>
+                </div>
+                <div facs="#retro094" type="retro">
+                    <!-- CODIFICA SEZIONE SINISTRA -->
+                    <div facs="#sezioneSinistra94" type="message">
+                        <p>
+                            <lb n="" facs="#titoloCart94" /><title>L'Architettura</title>
+                            <lb n="" facs="#pRiservata" />Proprietà artistica riservata - N. <unclear reason="background_noise">1044</unclear>
+                        </p>
+                        <div facs="#testo94" type="textmessage">
+                            <opener>
+                                <lb n="1" facs="#riga1_94"/>
+                                <placeName ref="#MO">Modena</placeName>,<w>lì</w>
+                                <date when="1917/6/7">7/6-1917.</date>
+                            </opener>
+                            <p>
+                                <s><lb n="2" facs="#riga2_94"/>C'è un caldo canicolare, pieno
+                                <lb n="3" facs="#riga3_94"/>di spo<c corresp="ss">&#x17F;</c>atezza.</s><s> Sono in attesa,
+                                <lb n="4" facs="#riga4_94"/>in trepida attesa, aspetto il postino
+                                <lb n="5" facs="#riga5_94"/>che deve portarmi i baci della mia
+                                <lb n="6" facs= "#riga6_94"/><persName ref="#OT">Oliva</persName>, sarà una proficua attesa?</s>
+                                <s><lb n="7" facs="#riga7_81" />Questa mattina nulla, solo una sem-
+                                <lb n="8" facs="#riga8_94"/>plice cartolina della <persName>Giannetta</persName>.</s>
+                            </p>
+                            <closer>
+                                <s><lb n="9" facs="#riga9_94"/>Mi perdo in frenetiche fantasie d'amore
+                                <lb n="10" facs= "#riga10_94"/>e penso a te.</s>
+                                <signed>
+                                    <lb n="11" facs="#riga10_94" xml:id="riga10_destra"/><persName ref="#GC"><addName type="alias">Giovannino</addName></persName>  
+                                </signed>
+                            </closer>
+                        </div>
+                    </div>
+                    <div facs="#sezioneDestra" type="destination">
+                        <!-- CODIFICA SEZIONE DESTRA -->
+                        <p xml:id="timbri94">
+                            <!-- stamps -->
+                            <stamp facs="#timbroMoSx94"  xml:id="timbroMoSxCart94" type="postmark"> 
+                                <placeName ref="#MO">
+                                    <unclear reason="faded">Modena</unclear>
+                                </placeName>
+                                <!--parte centrale timbro-->
+                                <gap reason="illegible"/>
+                                <!--parte terminale-->
+                                <supplied reason="faded-ink">Ferrovia</supplied>
+                            </stamp>
+                            <stamp facs="#timbroMoC94" type="postmark"> 
+                                <placeName ref="#MO">
+                                    Modena
+                                </placeName>
+                                <!--parte terminale-->
+                                <gap reason="illegible"/>
+                                <!--parte centrale timbro-->
+                                <gap reason="illegible"/>
+                            </stamp>
+                            <stamp facs="#timbroMoDx94" type="postmark"> 
+                                <placeName ref="#MO">
+                                    Mode<damage agent="rubbing"><supplied>na</supplied></damage>
+                                </placeName>
+                                <!--parte terminale-->
+                                <gap reason="illegible"/>
+                                <!--parte centrale timbro-->
+                                <gap reason="illegible"/>
+                            </stamp>
+                            <stamp facs="#timbroRvC94" type="postmark"> 
+                                <placeName ref="#RV">
+                                    Ra<supplied reason="faded-ink">venna</supplied>
+                                </placeName>
+                                <num>12<c>M</c></num>
+                                <!--parte terminale-->
+                                <gap reason="illegible"/>
+                            </stamp>
+                            <!--timbri non postali-->
+                            <stamp facs="#timbroNDx94"  xml:id="timbroNDxCart94" type="postmark"> 
+                                <num>2</num>
+                            </stamp>
+                            <stamp facs="#timbroNC94"  xml:id="timbroNCCart94" type="postmark"> 
+                                <gap reason="illegible"/>
+                            </stamp>
+                        </p>
+                        <p xml:id="francobolli94">
+                            <!-- stamps -->
+                            <stamp facs="#francobolloDx94" xml:id="francobolloDxCart94" type="postage">
+                                <orgName type="compagnia postale">POSTE ITALIANE </orgName>
+                                <damage agent="rubbing" degree="high"><supplied reason="illegible"> 5 cent</supplied></damage>esimi 5
+                            </stamp>
+                            <stamp facs="#francobolloSx94" xml:id="francobolloSxCart94" type="postage">
+                                <orgName type="compagnia postale"><unclear reason="background_noise">POSTE ITALIANE </unclear></orgName> 5 centesimi 5
+                            </stamp>
+                        </p>
+                        <div>
+                            <p facs="#infoD94">
+                                <span><idno type="numeroCart" facs="#n94">94</idno></span>
+                                <address>
+                                    <milestone facs="#destinatario94" unit="section"/>
+                                    <lb n="11" facs="#lineaDest1_94" />
+                                    <addrLine>
+                                        <choice>
+                                            <abbr xml:id="gentMa1">Gent.ma</abbr>
+                                            <expan xml:id="gentMa2">Gent<ex>ilissi</ex>ma</expan>
+                                        </choice>
+                                        <choice>
+                                            <abbr xml:id="sigNa1">Sig.na</abbr>
+                                            <expan xml:id="sigNa2">Sig<ex>nori</ex>na</expan>
+                                        </choice>
+                                    </addrLine>
+                                    <lb n="12" facs="#lineaDest2_94" />
+                                    <addrLine>
+                                        <persName ref="#OT">Olivia Turtura</persName>
+                                    </addrLine>
+                                    <milestone facs="#indirizzo94" unit="section"/>
+                                    <lb n="13" facs="#lineaInd1_94" />
+                                    <addrLine>Via Girolamo Ro<c corresp="ss">&#x17F;</c>i 53</addrLine>
+                                    <lb n="14" facs="#lineaInd2_94" />
+                                    <addrLine>
+                                        <placeName ref="#RV">Ravenna</placeName>
+                                    </addrLine>
+                                </address>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
